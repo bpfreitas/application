@@ -1,0 +1,172 @@
+.container {
+  margin-right: 205px;
+}
+.main {
+  position: relative;
+  float: left;
+  width: 100%;
+
+}
+
+#time{
+  min-height: 35px;
+  text-align: center;
+}
+
+.leader {
+  float:right;
+  width: 198px;
+  margin-right: -200px;
+
+
+
+}
+
+#question {
+  text-align: center;
+  background-color: #77c9d4;
+  font-size: 27pt;
+  padding:15px;
+  font-family: Courier New;
+  position: relative;
+  border: solid #015249 2px;
+  border-radius: 15px;
+
+}
+
+#usermessage {
+  background-color: #FAA;
+  position: fixed;
+}
+
+
+#title{
+  text-align: center;
+
+}
+
+#timer {
+  position: absolute;
+  font-size: 15pt;
+  width:60px;
+  height: 30px;
+  border-color: #015249;
+  background-color: #E9E9E9;
+  border-style: solid;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px;
+  left: 30%;
+}
+
+#endGame {
+  height: inherit;
+  width: inherit;
+
+  z-index: 200;
+}
+
+.button {
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  //font-family: Courier New;
+  color: #ffffff;
+  font-size: 27px;
+  background: #57BC90;
+  padding: 10px 20px 10px 20px;
+  border: solid #015249 1px;
+  text-align: center;
+  outline: 0;
+  width: calc(100%);
+  min-width: 100px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  margin: 2px;
+}
+
+.button #again{
+  background: blue;
+}
+.button:hover {
+  background: #015249;
+  font-weight: bold;
+  font-style: italic;
+}
+
+[name="wrong"]:hover {
+  background-color: #d33f3f!important;
+}
+
+
+
+#counter {
+    position: absolute;
+    width:60px;
+    height: 30px;
+    border-color: ##015249;
+    background-color: #E9E9E9;
+    border-style: solid;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    float: right;
+    right: 30%;
+    font-size: 15pt;
+}
+
+table, td #board {
+    border: 2px solid #015249;
+    background-color: #E9E9E9;
+    table-layout:fixed;
+    width:100%;
+    margin-left: 2px;
+    //font-family:Courier New;
+    font-size: 10pt;
+}
+
+th {
+    padding: 10pt;
+    text-decoration: underline;
+}
+td {
+  padding:10pt;
+
+}
+
+body {
+    background-color: #F4F4F4;
+}
+
+
+#textField {
+
+    font-size: 12pt;
+    top:40%;
+    left:40%;
+}
+
+
+#dashBoard{
+  width: 100%;
+  display: inline-block;
+}
+
+#padding{
+  height:25px;
+}
+
+#textField{
+  margin-left:50%;
+  margin-top: 50px;
+}
+
+#finalResult{
+  position: absolute;
+  font-size: 25pt;
+  font-weight: bold;
+  top: 60%;
+  margin-left: 2%;
+
+}

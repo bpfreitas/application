@@ -1,0 +1,95 @@
+<html>
+
+<head>
+
+  <title>Super Fun Trivia Game</title>
+
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <script src="javascript.js"></script>
+  <h1 id="title"> Welcome to Super Fun Trivia Game</h1>
+
+
+</head>
+
+<body>
+
+  <div id="dashBoard">
+    <div id="counter">0/10</div>
+
+    <div id="time" style="position: relative">
+      <div id="timer">
+        <label id="minutes">00</label>:<label id="seconds">00</label>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="padding">
+  </div>
+
+  <div class="container">
+    <div id="endGame" style="display:none">
+      <button class='button' id="again">Play again?</button>
+    </div>
+    <div class="leader">
+      <table id="board">
+        <tr>
+          <th> Place </th>
+          <th> Name </th>
+          <th> Time </th>
+        </tr>
+        <tr>
+          <td> 1 </td>
+          <td> Evan </td>
+          <td> 05:10 </td>
+        </tr>
+        <tr>
+          <td> 2 </td>
+          <td> Blake </td>
+          <td> 07:17 </td>
+        </tr>
+        <tr>
+          <td> 3 </td>
+          <td> Riley </td>
+          <td> 10:54 </td>
+        </tr>
+        <tr>
+          <td> 4 </td>
+          <td> T-Weznerd </td>
+          <td> 17:22 </td>
+        </tr>
+        <tr>
+          <td> 5 </td>
+          <td> Prof Barry </td>
+          <td> 48:49 </td>
+        </tr>
+
+      </table>
+    </div>
+    <div class="main">
+
+      <div id="penalty"></div>
+
+      <div id="userMessage"></div>
+      <div id="question"></div>
+
+      <div id="textField" style="display: none">
+        <input type="text" id="input1" placeholder="Enter your name..." />
+        <button onclick="submitNameTime()">Submit</button>
+      </div>
+
+      <div id="options">
+        <button class='button' id="divA"></button>
+        <button class='button' id="divB"></button>
+        <button class='button' id="divC"></button>
+        <button class='button' id="divD"></button>
+      </div>
+
+    </div>
+  </div>
+
+<div id="finalResult" style="display: none"> </div>
+</body>
+
+
+</html>
